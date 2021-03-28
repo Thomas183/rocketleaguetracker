@@ -1,0 +1,27 @@
+h1{
+    
+    position: relative;
+    color: gold;
+    text-align: left;
+}
+
+.playerContainer{
+    text-align: center;
+    position: relative;
+}
+
+.frame{
+    position: relative;
+    width: 184px;
+    height: 184px;
+}
+
+.playerName{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: rgba(255, 255, 255, 0.85);
+}

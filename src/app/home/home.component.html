@@ -1,0 +1,5 @@
+<h1>Rocket League Tracker</h1>
+<div class="searchBarContainer">
+    <input [(ngModel)]="inputTextCurrent" class="searchBar" type="text" #steamid placeholder="SteamURL">
+        <button (click)='getid(steamid.value)' class="searchButton" [disabled]="inputTextCurrent === ''"><img class="magnifyingGlass" src='src\assets\img\Vector.svg'></button>
+</div>
